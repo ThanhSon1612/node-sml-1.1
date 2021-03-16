@@ -1,0 +1,19 @@
+
+<% layout('client/boilerplate') -%>
+<!-- Post Content -->
+<article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <h1><%= post.tittle  %></h1>
+          <h2><%= post.description %></h2>
+          <h3><%= post.content %></h3>
+          <a><%= post.createdAt</a>
+          <p>
+            <a href="http://spaceipsum.com/"></a>Photographs by
+            <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
+        </div>
+      </div>
+    </div>
+  </article>
+ 
